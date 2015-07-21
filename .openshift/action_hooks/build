@@ -16,7 +16,7 @@ git clone https://github.com/memcached/memcached memcached
 cd memcached
 git checkout $version
 ./autogen.sh
-./configure --enable-sasl --enable-sasl-pwdb --with-libevent=/usr/lib64/
+./configure --enable-sasl --enable-sasl-pwdb --with-libevent=/usr/lib64
 make -j 2
 
 mkdir -p $binaries
